@@ -16,6 +16,25 @@ Source for the PI's name, institutional email, office location, training, resear
 
 News dates follow the linked School of Medicine pages, not the original syndicated story dates. No clinical efficacy is claimed for experimental therapeutic approaches.
 
+## Updated research emphasis
+
+The lab owner requested four current research themes, in this order: **Marfan syndrome**, **RNA therapeutics**, **aortic valve calcification (AVC)**, and **thoracic aortic aneurysm (TAA)**. The site tagline is **Aortic Disease & RNA Therapeutics**. Current research focus is owner-provided; the linked institutional coverage independently supports the Marfan/RNA and AVC programs. This update does not claim new experimental results.
+
+Stable research IDs are `marfan-syndrome`, `rna-therapeutics`, `aortic-valve-calcification`, and `thoracic-aortic-aneurysm`.
+
+Supporting primary background sources:
+
+- https://pubmed.ncbi.nlm.nih.gov/1852208/ — Dietz et al., *Nature* (1991), DOI `10.1038/352337a0`. Primary evidence linking fibrillin gene mutation with Marfan syndrome. Background biology only; this is not a Cai Lab publication.
+- https://pubmed.ncbi.nlm.nih.gov/16601194/ — Habashi et al., *Science* (2006), DOI `10.1126/science.1124287`. Primary evidence concerning fibrillin-1-related aortic disease in a Marfan mouse model. This supports general biological context and does not establish efficacy for a Cai Lab RNA approach.
+
+RNA therapeutics is described as an experimental research direction. No RNA cure, approved treatment, demonstrated clinical efficacy, or clinical-trial activity is claimed. The update does not introduce unpublished targets, delivery designs, or specific experimental results.
+
+### Publication emphasis and anatomical distinction
+
+The homepage features exactly two verified papers: the **2025 humanized aortic valve calcification model** and the **2021 inflammatory smooth muscle study in abdominal aortic aneurysm**. The second is relevant prior mechanistic aneurysm research, but it remains explicitly an **abdominal aortic aneurysm (AAA)** paper. It is not relabeled as **thoracic aortic aneurysm (TAA)** research. No TAA-specific Cai paper was independently verified in the bounded search for this update; the TAA section reflects the lab owner's stated current focus.
+
+All eight publication records retain their titles, authors, years, journals, DOI/PMID links, and topic labels. Only their `featured` flags changed. The pulmonary hypertension and stent papers remain in the complete selected bibliography without leading the homepage. The three university news stories retain their original order and dates; the existing Marfan/RNA story may be highlighted separately without changing its date.
+
 ## Selected publications
 
 Metadata and identifiers are retained in `content/site.json`. The website links to PubMed and DOI records individually:
