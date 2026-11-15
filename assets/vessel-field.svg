@@ -1,160 +1,134 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1250" viewBox="0 0 1100 1250" fill="none" role="img" aria-labelledby="vascular-title vascular-description">
-  <title id="vascular-title">A field of branching vessels</title>
-  <desc id="vascular-description">An original conceptual illustration of a vascular network. Soft sage and bronze branches sweep through a charcoal field, with sparse burgundy cell-like forms and delicate secondary vessels. This is an artistic illustration, not experimental imaging or data.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1250" viewBox="0 0 1100 1250" fill="none" role="img" aria-labelledby="aorta-title aorta-description">
+  <title id="aorta-title">Aortic biology and RNA therapeutics</title>
+  <desc id="aorta-description">Original conceptual vector artwork in warm gold and deep brown. A sweeping aortic arch with three upper branches is paired with a stylized RNA stem-loop. These artistic forms suggest the laboratory's areas of research; they are not anatomical measurements, molecular models, microscopy, or experimental results.</desc>
   <defs>
-    <radialGradient id="field" cx="0" cy="0" r="1" gradientTransform="translate(622 582) rotate(101) scale(853 755)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#263532"/>
-      <stop offset=".57" stop-color="#1e2a29"/>
-      <stop offset="1" stop-color="#172123"/>
+    <radialGradient id="field" cx="0" cy="0" r="1" gradientTransform="translate(577 486) rotate(104) scale(834 752)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4D3B1C"/>
+      <stop offset=".49" stop-color="#30291C"/>
+      <stop offset="1" stop-color="#1D1B16"/>
     </radialGradient>
-    <linearGradient id="vessel" x1="278" y1="41" x2="720" y2="1220" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#4a635b"/>
-      <stop offset=".38" stop-color="#849080"/>
-      <stop offset=".67" stop-color="#788277"/>
-      <stop offset="1" stop-color="#9a8260"/>
+    <linearGradient id="gold" x1="280" y1="1060" x2="731" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#AC7917"/>
+      <stop offset=".32" stop-color="#E9AC20"/>
+      <stop offset=".7" stop-color="#F1B82D"/>
+      <stop offset="1" stop-color="#C58B17"/>
     </linearGradient>
-    <linearGradient id="branch" x1="1077" y1="261" x2="526" y2="820" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#40554f"/>
-      <stop offset=".6" stop-color="#748273"/>
-      <stop offset="1" stop-color="#8b8c75"/>
+    <linearGradient id="inner" x1="229" y1="460" x2="776" y2="723" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B57D14"/>
+      <stop offset=".42" stop-color="#C99016"/>
+      <stop offset=".68" stop-color="#AD7713"/>
+      <stop offset="1" stop-color="#7D5916"/>
     </linearGradient>
-    <linearGradient id="warm-branch" x1="-60" y1="1111" x2="1090" y2="832" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#4e4e43"/>
-      <stop offset=".48" stop-color="#938368"/>
-      <stop offset="1" stop-color="#53665b"/>
+    <linearGradient id="edge" x1="310" y1="950" x2="655" y2="201" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFDD86" stop-opacity=".2"/>
+      <stop offset=".4" stop-color="#FFE7A4" stop-opacity=".82"/>
+      <stop offset=".76" stop-color="#FFF0BF" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#FFD56C" stop-opacity=".55"/>
     </linearGradient>
-    <linearGradient id="edge" x1="321" y1="157" x2="787" y2="1153" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#b9c2a8" stop-opacity=".15"/>
-      <stop offset=".38" stop-color="#e2d9b6" stop-opacity=".66"/>
-      <stop offset=".73" stop-color="#c4c9ae" stop-opacity=".34"/>
-      <stop offset="1" stop-color="#dec18e" stop-opacity=".48"/>
+    <linearGradient id="rna" x1="-70" y1="-181" x2="40" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE9AB"/>
+      <stop offset=".48" stop-color="#E9AC20"/>
+      <stop offset="1" stop-color="#AA761C"/>
     </linearGradient>
-    <radialGradient id="cell" cx=".36" cy=".3" r=".7">
-      <stop stop-color="#b77f72"/>
-      <stop offset=".47" stop-color="#96554d"/>
-      <stop offset="1" stop-color="#643b38"/>
-    </radialGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1250" gradientUnits="userSpaceOnUse">
+      <stop offset=".65" stop-color="#1D1B16" stop-opacity="0"/>
+      <stop offset=".84" stop-color="#1D1B16" stop-opacity=".19"/>
+      <stop offset="1" stop-color="#1D1B16"/>
+    </linearGradient>
     <pattern id="grain" width="34" height="34" patternUnits="userSpaceOnUse">
-      <circle cx="5" cy="8" r=".6" fill="#d1c8a6" opacity=".12"/>
-      <circle cx="25" cy="27" r=".45" fill="#d1c8a6" opacity=".09"/>
+      <circle cx="4" cy="7" r=".6" fill="#F1B82D" opacity=".13"/>
+      <circle cx="24" cy="26" r=".45" fill="#FFE7A4" opacity=".08"/>
     </pattern>
-    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="22"/>
-    </filter>
-    <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
-      <feDropShadow dx="7" dy="10" stdDeviation="13" flood-color="#0b1415" flood-opacity=".48"/>
-    </filter>
-    <path id="trunk" d="M718 1321C691 1202 693 1127 651 1028C609 929 577 872 588 770C600 660 532 594 482 511C431 427 457 348 398 265C345 190 273 155 245 83C227 38 219-9 211-64"/>
-    <path id="right-crown" d="M574 694C626 621 727 587 780 472C830 364 879 289 982 261C1039 246 1082 223 1142 180"/>
-    <path id="upper-crown" d="M430 328C493 292 552 295 609 235C660 182 673 116 742 62C782 30 799-10 815-67"/>
-    <path id="left-arm" d="M585 753C505 761 478 795 402 774C321 752 296 683 213 658C142 636 79 642-52 693"/>
-    <path id="upper-left" d="M470 483C400 457 348 467 301 426C240 373 195 345 111 353C51 358 3 351-52 328"/>
-    <path id="lower-right" d="M629 953C698 914 744 869 825 879C913 890 963 932 1045 886C1093 859 1126 843 1170 842"/>
-    <path id="lower-left" d="M684 1140C615 1120 564 1069 502 1043C416 1006 334 1050 271 1075C192 1107 126 1104 55 1147C5 1178-18 1200-57 1211"/>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="36"/></filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="10" dy="15" stdDeviation="15" flood-color="#100E09" flood-opacity=".5"/></filter>
+    <path id="aorta" d="M281 1170C284 1063 321 983 324 875C327 779 271 705 267 603C264 526 248 471 272 398C302 307 388 251 481 251C592 251 679 318 707 416C735 512 705 615 716 735C728 865 774 970 782 1175"/>
+    <path id="branch-one" d="M370 287C368 226 338 194 325 147C312 100 315 67 298 8"/>
+    <path id="branch-two" d="M486 252C480 205 489 161 513 127C534 98 546 61 545 9"/>
+    <path id="branch-three" d="M586 281C606 235 648 204 665 163C680 127 682 91 708 43"/>
   </defs>
 
   <rect width="1100" height="1250" fill="url(#field)"/>
   <rect width="1100" height="1250" fill="url(#grain)"/>
+  <ellipse cx="518" cy="394" rx="225" ry="185" fill="#D29716" opacity=".09" filter="url(#glow)"/>
 
-  <!-- Soft peripheral structures suggest depth without imitating microscopy. -->
-  <g filter="url(#soft)" opacity=".13" stroke="#aab9aa" stroke-linecap="round">
-    <path d="M-80 980C119 862 93 721 237 590S451 386 494 141" stroke-width="42"/>
-    <path d="M1070 1220C919 1069 1024 916 916 717S922 401 1103 349" stroke-width="38"/>
-    <path d="M833-33C859 144 1076 190 1090 416" stroke-width="20"/>
+  <!-- Open contours are decorative forms, not a chart or a measurement grid. -->
+  <g stroke="#C2912F" stroke-width="1" opacity=".12">
+    <path d="M-38 501C53 425 82 271 228 202C361 139 407 190 454 95"/>
+    <path d="M-18 541C96 446 124 300 253 239C378 180 433 211 477 130"/>
+    <path d="M19 582C125 472 166 338 285 278"/>
+    <path d="M1057 344C897 331 863 385 858 462C852 559 1018 612 1004 763C994 866 928 962 1014 1062"/>
+    <path d="M1101 305C917 293 826 369 820 456"/>
+    <path d="M1010 821C1047 901 1049 983 1114 1027"/>
   </g>
 
-  <!-- Finer branches are deliberately quiet, with a few open contours. -->
-  <g stroke-linecap="round" stroke-linejoin="round">
-    <g stroke="#6c8071" opacity=".38">
-      <path d="M790 456C750 414 719 352 742 291C769 220 823 185 841 103C851 60 845 16 859-31" stroke-width="17"/>
-      <path d="M758 258C692 251 673 220 656 172C641 131 609 111 574 93" stroke-width="7"/>
-      <path d="M833 143C883 144 924 116 953 76C984 33 1016 24 1061 15" stroke-width="6"/>
-      <path d="M907 289C922 344 977 374 1013 416C1050 460 1071 480 1124 496" stroke-width="12"/>
-      <path d="M1002 403C956 448 948 496 962 539C980 594 1025 606 1056 647" stroke-width="5"/>
-      <path d="M271 682C236 625 248 575 189 545C139 519 79 542 18 504C-5 490-27 469-39 449" stroke-width="14"/>
-      <path d="M174 540C178 491 151 463 115 440C85 420 76 384 69 350" stroke-width="5"/>
-      <path d="M390 771C404 837 383 885 329 909C274 935 225 923 185 964C152 998 122 1024 76 1022" stroke-width="12"/>
-      <path d="M306 920C309 962 330 992 363 1017" stroke-width="5"/>
-      <path d="M938 910C932 984 968 1034 1008 1078C1048 1122 1053 1171 1121 1205" stroke-width="17"/>
-      <path d="M976 1039C910 1056 908 1105 875 1143C855 1167 833 1183 796 1189" stroke-width="6"/>
-      <path d="M347 1051C349 1125 298 1172 289 1217C284 1238 288 1262 284 1287" stroke-width="9"/>
-      <path d="M316 1147C253 1140 217 1166 187 1201" stroke-width="4"/>
-      <path d="M308 427C337 367 326 309 283 282C237 253 189 266 156 219C124 173 130 127 95 96" stroke-width="9"/>
-      <path d="M180 243C145 283 105 290 64 283C24 275-3 278-29 297" stroke-width="4"/>
-      <path d="M603 241C564 192 541 145 549 93C555 56 544 23 530-17" stroke-width="8"/>
-    </g>
-    <g stroke="#b3b89b" opacity=".18" stroke-width="1.5">
-      <path d="M132 702C118 754 153 801 141 857C131 906 89 935 62 965"/>
-      <path d="M145 809C197 811 219 843 224 878"/>
-      <path d="M496 838C452 869 463 931 505 956C537 976 549 992 554 1017"/>
-      <path d="M715 661C756 673 790 649 829 669C869 689 862 744 899 769"/>
-      <path d="M811 665C814 612 841 592 860 563"/>
-      <path d="M354 164C406 148 431 115 436 75C441 35 463 16 482-8"/>
-      <path d="M437 77C391 50 382 22 387-12"/>
-    </g>
-  </g>
-
-  <!-- Broad vessel walls, then a narrow inner light. -->
-  <g filter="url(#shadow)" stroke-linecap="round" stroke-linejoin="round">
-    <use href="#upper-left" stroke="url(#branch)" stroke-width="31"/>
-    <use href="#upper-crown" stroke="url(#branch)" stroke-width="36"/>
-    <use href="#left-arm" stroke="url(#branch)" stroke-width="48"/>
-    <use href="#right-crown" stroke="url(#branch)" stroke-width="53"/>
-    <use href="#lower-left" stroke="url(#warm-branch)" stroke-width="47"/>
-    <use href="#lower-right" stroke="url(#warm-branch)" stroke-width="56"/>
-    <use href="#trunk" stroke="url(#vessel)" stroke-width="86"/>
+  <!-- The arch and branches use layered golden walls and fine inner highlights. -->
+  <g stroke-linecap="round" stroke-linejoin="round" filter="url(#shadow)">
+    <use href="#branch-one" stroke="url(#gold)" stroke-width="48"/>
+    <use href="#branch-two" stroke="url(#gold)" stroke-width="37"/>
+    <use href="#branch-three" stroke="url(#gold)" stroke-width="34"/>
+    <use href="#aorta" stroke="url(#gold)" stroke-width="112"/>
   </g>
   <g stroke-linecap="round" stroke-linejoin="round">
-    <use href="#upper-left" stroke="#233732" stroke-opacity=".34" stroke-width="15"/>
-    <use href="#upper-crown" stroke="#233732" stroke-opacity=".4" stroke-width="20"/>
-    <use href="#left-arm" stroke="#253c34" stroke-opacity=".4" stroke-width="29"/>
-    <use href="#right-crown" stroke="#253c34" stroke-opacity=".42" stroke-width="34"/>
-    <use href="#lower-left" stroke="#343f32" stroke-opacity=".35" stroke-width="29"/>
-    <use href="#lower-right" stroke="#2c3d33" stroke-opacity=".4" stroke-width="35"/>
-    <use href="#trunk" stroke="#31453c" stroke-opacity=".35" stroke-width="61"/>
+    <use href="#branch-one" stroke="#9D6E17" stroke-opacity=".5" stroke-width="26"/>
+    <use href="#branch-two" stroke="#9D6E17" stroke-opacity=".5" stroke-width="18"/>
+    <use href="#branch-three" stroke="#9D6E17" stroke-opacity=".5" stroke-width="17"/>
+    <use href="#aorta" stroke="url(#inner)" stroke-width="76"/>
+    <use href="#aorta" stroke="#5F471A" stroke-opacity=".19" stroke-width="38"/>
   </g>
-
   <g stroke="url(#edge)" stroke-linecap="round">
-    <path d="M692 1281C668 1167 667 1107 627 1016C586 920 556 873 566 771C579 659 513 603 465 522C411 432 434 349 380 277C327 208 251 164 226 90" stroke-width="3.5"/>
-    <path d="M599 673C647 615 744 562 789 457C830 362 885 283 978 271" stroke-width="2.2"/>
-    <path d="M438 315C506 281 551 282 599 229C645 179 668 109 732 64" stroke-width="1.8"/>
-    <path d="M558 752C495 768 468 784 405 763C326 739 289 670 215 649C146 630 69 644 4 671" stroke-width="2"/>
-    <path d="M645 931C718 888 752 861 822 867C907 875 969 915 1039 873" stroke-width="2.6"/>
-    <path d="M654 1120C588 1090 562 1057 502 1030C426 995 340 1035 271 1063C195 1095 119 1097 67 1135" stroke-width="2"/>
-    <path d="M455 476C397 455 341 453 300 416C244 365 190 336 114 343" stroke-width="1.5"/>
+    <path d="M253 1140C261 1023 294 978 297 875C300 777 244 701 241 603C239 525 225 462 246 390C280 283 376 225 479 225C604 224 702 304 732 409C764 516 734 614 744 730C756 860 799 953 808 1135" stroke-width="3"/>
+    <path d="M353 269C353 214 323 180 312 139C300 98 301 62 286 17" stroke-width="2"/>
+    <path d="M475 234C473 194 485 153 505 124C526 94 533 55 532 18" stroke-width="1.8"/>
+    <path d="M578 267C595 226 635 196 651 158C665 126 670 87 694 46" stroke-width="1.8"/>
   </g>
 
-  <!-- Cell-like shapes provide a warm, restrained counterpoint to the vessel walls. -->
-  <g fill="url(#cell)">
-    <ellipse cx="670" cy="1135" rx="11" ry="17" transform="rotate(-14 670 1135)"/>
-    <ellipse cx="626" cy="965" rx="10" ry="15" transform="rotate(-28 626 965)"/>
-    <ellipse cx="587" cy="832" rx="10" ry="16" transform="rotate(-2 587 832)"/>
-    <ellipse cx="547" cy="614" rx="9" ry="14" transform="rotate(-31 547 614)"/>
-    <ellipse cx="443" cy="393" rx="8" ry="12" transform="rotate(-10 443 393)"/>
-    <ellipse cx="337" cy="199" rx="7" ry="12" transform="rotate(-43 337 199)"/>
-    <ellipse cx="726" cy="554" rx="8" ry="12" transform="rotate(40 726 554)"/>
-    <ellipse cx="865" cy="331" rx="6" ry="10" transform="rotate(46 865 331)"/>
-    <ellipse cx="460" cy="783" rx="7" ry="11" transform="rotate(85 460 783)"/>
-    <ellipse cx="224" cy="661" rx="6" ry="9" transform="rotate(-71 224 661)"/>
-    <ellipse cx="826" cy="882" rx="9" ry="13" transform="rotate(-78 826 882)"/>
-    <ellipse cx="419" cy="1033" rx="7" ry="11" transform="rotate(79 419 1033)"/>
-  </g>
-  <g fill="#c0a15c">
-    <circle cx="600" cy="743" r="3.5" opacity=".9"/>
-    <circle cx="649" cy="1015" r="3" opacity=".8"/>
-    <circle cx="487" cy="527" r="2.8" opacity=".85"/>
-    <circle cx="757" cy="513" r="2.7" opacity=".8"/>
-    <circle cx="526" cy="1064" r="2.4" opacity=".7"/>
+  <!-- A stylized folded single RNA strand; no sequence or therapeutic mechanism is asserted. -->
+  <g transform="translate(869 701) rotate(-23)">
+    <ellipse cx="-16" cy="16" rx="102" ry="217" fill="#D99D24" opacity=".06" filter="url(#glow)"/>
+    <path d="M-34 245V24C-34-20-77-53-78-106C-79-158-41-196 3-190C53-184 76-133 57-92C36-47 15-30 15 25V245" stroke="#17150F" stroke-opacity=".65" stroke-width="16"/>
+    <path d="M-34 245V24C-34-20-77-53-78-106C-79-158-41-196 3-190C53-184 76-133 57-92C36-47 15-30 15 25V245" stroke="url(#rna)" stroke-width="5" stroke-linecap="round"/>
+    <g stroke="#D6AD55" stroke-width="2" opacity=".7">
+      <path d="M-31 38H12M-31 76H12M-31 114H12M-31 152H12M-31 190H12M-31 228H12"/>
+    </g>
+    <g fill="#F7CE6B" stroke="#594018" stroke-width="2">
+      <circle cx="-34" cy="38" r="7"/><circle cx="15" cy="38" r="7"/>
+      <circle cx="-34" cy="76" r="7"/><circle cx="15" cy="76" r="7"/>
+      <circle cx="-34" cy="114" r="7"/><circle cx="15" cy="114" r="7"/>
+      <circle cx="-34" cy="152" r="7"/><circle cx="15" cy="152" r="7"/>
+      <circle cx="-34" cy="190" r="7"/><circle cx="15" cy="190" r="7"/>
+      <circle cx="-34" cy="228" r="7"/><circle cx="15" cy="228" r="7"/>
+      <circle cx="-39" cy="-3" r="7"/><circle cx="24" cy="-19" r="7"/>
+      <circle cx="-63" cy="-54" r="7"/><circle cx="50" cy="-77" r="7"/>
+      <circle cx="-78" cy="-107" r="7"/><circle cx="63" cy="-123" r="7"/>
+      <circle cx="-58" cy="-163" r="7"/><circle cx="38" cy="-174" r="7"/>
+      <circle cx="-7" cy="-190" r="7"/>
+    </g>
+    <g fill="#AE7133" opacity=".95"><circle cx="15" cy="76" r="4"/><circle cx="-34" cy="152" r="4"/><circle cx="-58" cy="-163" r="4"/></g>
   </g>
 
-  <!-- Editorial markers: no measurements, axes, or simulated findings. -->
-  <g stroke="#b8ad8b" stroke-width="1" opacity=".5">
-    <path d="M62 110V62H110"/>
-    <path d="M1038 1140V1188H990"/>
-    <path d="M64 1188H117"/>
+  <!-- Warm cell-like accents remain deliberately abstract. -->
+  <g fill="#F8DB8C" opacity=".68">
+    <ellipse cx="304" cy="834" rx="7" ry="13" transform="rotate(-8 304 834)"/>
+    <ellipse cx="283" cy="562" rx="6" ry="11" transform="rotate(-6 283 562)"/>
+    <ellipse cx="424" cy="257" rx="6" ry="11" transform="rotate(78 424 257)"/>
+    <ellipse cx="674" cy="371" rx="6" ry="11" transform="rotate(-26 674 371)"/>
+    <ellipse cx="722" cy="681" rx="7" ry="12" transform="rotate(-6 722 681)"/>
   </g>
-  <g fill="#d1c7aa" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" letter-spacing="2.5">
-    <text x="64" y="143" opacity=".76">FORM · FLOW · FUNCTION</text>
-    <text x="1036" y="1220" text-anchor="end" font-size="10" letter-spacing="2" opacity=".57">CONCEPTUAL ILLUSTRATION</text>
+  <g fill="#F1B82D" opacity=".7">
+    <circle cx="166" cy="771" r="3"/><circle cx="193" cy="820" r="2"/>
+    <circle cx="507" cy="662" r="3"/><circle cx="556" cy="708" r="2"/>
+    <circle cx="927" cy="363" r="2.5"/><circle cx="976" cy="417" r="2"/>
+  </g>
+
+  <rect width="1100" height="1250" fill="url(#fade)"/>
+  <g stroke="#E0BB61" stroke-width="1" opacity=".6">
+    <path d="M63 110V63H110"/>
+    <path d="M62 186H158L215 244"/>
+    <circle cx="215" cy="244" r="3" fill="#E0BB61" stroke="none"/>
+    <path d="M1038 1140V1188H991"/>
+  </g>
+  <g fill="#F1D796" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" letter-spacing="2.5">
+    <text x="63" y="151" opacity=".87">AORTIC BIOLOGY</text>
+    <text x="984" y="1008" text-anchor="end" font-size="12" opacity=".76">RNA THERAPEUTICS</text>
   </g>
 </svg>
