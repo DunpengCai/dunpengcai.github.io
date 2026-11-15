@@ -6,12 +6,12 @@ A complete English website for the Cai Lab at the University of Missouri. Design
 
 ## What is included
 
-- Responsive desktop and mobile layouts, accessible navigation, and a print stylesheet.
-- Four research areas, a verified PI profile, eight selected publications, and three university news stories.
+- A warm gold and parchment design, responsive desktop and mobile layouts, accessible navigation, and a print stylesheet.
+- Four research priorities: Marfan syndrome, RNA therapeutics, aortic valve calcification (AVC), and thoracic aortic aneurysm (TAA), plus a verified PI profile, eight selected publications, and three university news stories.
 - Publication search, year/topic filters, citation copying, and RIS/BibTeX downloads.
 - Direct institutional email links. There is no contact-form server or visitor database.
 - A complete GitHub Actions deployment workflow and a first-publication helper.
-- An original vascular illustration and the PI portrait from his university profile.
+- An original conceptual aortic/RNA illustration and the PI portrait from his university profile.
 - No JavaScript packages, paid APIs, tracking scripts, font services, or runtime server dependencies.
 
 ## Preview locally
@@ -77,7 +77,7 @@ python build.py --site-url https://dunpengcai.github.io/
 
 ## Content and image sources
 
-See **SOURCE_NOTES.md** and **ASSET_CREDITS.md**. No unpublished project ideas, unverified team members, invented employment openings, or fabricated laboratory photographs are included. The vascular artwork is explicitly labeled as a conceptual illustration.
+See **SOURCE_NOTES.md** and **ASSET_CREDITS.md**. No unpublished project ideas, unverified team members, invented employment openings, or fabricated laboratory photographs are included. The aortic/RNA artwork is explicitly labeled as a conceptual illustration.
 
 ## Current publication status
 

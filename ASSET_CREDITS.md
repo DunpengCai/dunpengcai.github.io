@@ -8,10 +8,10 @@
 - Credit displayed on the People page: University of Missouri School of Medicine.
 - Downloaded unchanged from the public institutional profile for this faculty laboratory website. Copyright remains with the applicable rights holder; no new or blanket image license is asserted. The owner can replace this file with another approved portrait at any time.
 
-## Vascular illustration and icon
+## Aortic/RNA illustration and icon
 
-- `assets/vessel-field.svg`: original vector artwork created for this website. It is a conceptual illustration, not a microscopy image, anatomical measurement, or experimental result.
-- `assets/favicon.svg`: original C/vessel mark created for this website. It is not the University of Missouri logo.
+- `assets/vessel-field.svg`: original gold vector artwork created for this website, combining an aortic arch with a stylized RNA stem-loop. It is a conceptual illustration, not a microscopy image, anatomical measurement, molecular model, or experimental result. No sequence or treatment mechanism is asserted.
+- `assets/favicon.svg`: original gold C/vessel mark created for this website. It is not the University of Missouri logo.
 
 ## Typography
 
