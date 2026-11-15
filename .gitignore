@@ -1,0 +1,26 @@
+# Generated website; GitHub Actions builds it from the source.
+dist/
+
+# Local preview and publishing state.
+.openai/
+.github-pages-publish.json
+.preview/
+screenshots/
+preview*.png
+
+# Local operating-system and editor files.
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+*.log
+*.zip
+
+# Credentials and private local configuration are never source content.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
