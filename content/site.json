@@ -1,0 +1,339 @@
+{
+  "lab": {
+    "name": "Cai Lab",
+    "tagline": "Vascular & Valvular Biology",
+    "institution": "University of Missouri",
+    "department": "Department of Surgery",
+    "school": "School of Medicine",
+    "city": "Columbia, Missouri",
+    "email": "dccfn@health.missouri.edu",
+    "address": [
+      "1 Hospital Drive",
+      "M702",
+      "Columbia, MO 65201",
+      "United States"
+    ],
+    "pi": {
+      "name": "Dunpeng Cai",
+      "title": "Assistant Professor",
+      "credentials": "PhD",
+      "bio": [
+        "Dunpeng Cai studies the cellular and molecular processes that contribute to vascular and heart valve disease. His research brings together mechanistic studies and experimental disease models to investigate aneurysm, aortic valve calcification, vascular remodeling, and inherited vascular disorders.",
+        "Dr. Cai completed his doctoral and postdoctoral training at the University of Missouri. His work combines molecular approaches, imaging, and microsurgery to connect discoveries in cells and tissues with questions relevant to cardiovascular treatment."
+      ],
+      "profile_url": "https://medicine.missouri.edu/faculty/dunpeng-cai-phd",
+      "scholar_url": "https://scholar.google.com/citations?hl=en&user=AvEJPi4AAAAJ",
+      "education": [
+        "PhD, University of Missouri, 2021",
+        "Postdoctoral fellowship, University of Missouri, 2021–2024"
+      ]
+    }
+  },
+  "research": [
+    {
+      "id": "valve-disease",
+      "title": "Aortic valve disease",
+      "eyebrow": "Cell signaling & calcification",
+      "summary": "Understanding how cellular signaling and inflammation contribute to the stiffening and calcification of the aortic valve.",
+      "body": "We connect observations in human valve tissue with experimental studies to examine disease mechanisms. Current work investigates DOCK2 signaling and uses translational models to explore potential therapeutic targets for aortic valve calcification.",
+      "topics": [
+        "Valve disease",
+        "Cell signaling",
+        "Translational models"
+      ],
+      "source_urls": [
+        "https://medicine.missouri.edu/news/dr-cai-seeks-treatment-common-heart-valve-disease",
+        "https://pubmed.ncbi.nlm.nih.gov/40270264/"
+      ]
+    },
+    {
+      "id": "vascular-remodeling",
+      "title": "Vascular remodeling & aneurysm",
+      "eyebrow": "Cells, inflammation & matrix",
+      "summary": "Investigating how vascular cells and the extracellular matrix change during aneurysm and vascular disease.",
+      "body": "Our studies examine smooth muscle cell plasticity, endothelial inflammation, and matrix remodeling. By identifying molecular pathways that shape these responses, we seek to understand how vascular structure and function are lost and how they might be preserved.",
+      "topics": [
+        "Aneurysm",
+        "Vascular biology",
+        "Extracellular matrix"
+      ],
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/34551587/",
+        "https://pubmed.ncbi.nlm.nih.gov/37021575/",
+        "https://pubmed.ncbi.nlm.nih.gov/37838011/",
+        "https://pubmed.ncbi.nlm.nih.gov/41148811/"
+      ]
+    },
+    {
+      "id": "rna-approaches",
+      "title": "RNA approaches to genetic disease",
+      "eyebrow": "Precision strategies for Marfan syndrome",
+      "summary": "Exploring RNA-based approaches to the molecular causes of inherited vascular disease.",
+      "body": "Our Marfan syndrome research investigates strategies to correct disease-associated fibrillin-1 transcripts. This work asks whether RNA editing can provide a route toward addressing the genetic basis of vascular disease, with efficacy and translation remaining research goals.",
+      "topics": [
+        "Marfan syndrome",
+        "RNA editing",
+        "Precision medicine"
+      ],
+      "source_urls": [
+        "https://medicine.missouri.edu/news/cai-breaks-new-ground-treatment-genetic-disorders"
+      ]
+    },
+    {
+      "id": "disease-models",
+      "title": "Models that connect mechanism to disease",
+      "eyebrow": "Microsurgery & translational research",
+      "summary": "Developing experimental platforms to study cardiovascular disease and investigate potential interventions.",
+      "body": "Our published work includes humanized aortic valve calcification models, models of flow-driven pulmonary hypertension, and vascular repair studies. These platforms help connect molecular questions with tissue remodeling and cardiovascular function.",
+      "topics": [
+        "Disease models",
+        "Microsurgery",
+        "Pulmonary hypertension"
+      ],
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/40270264/",
+        "https://pubmed.ncbi.nlm.nih.gov/41674466/",
+        "https://pubmed.ncbi.nlm.nih.gov/38833147/"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "cai-2026-shunt",
+      "title": "Murine Aortopulmonary Shunt Model of Flow-Driven Pulmonary Hypertension—Brief Report",
+      "authors": [
+        "Dunpeng Cai",
+        "Ruimei Zhou",
+        "Ken Fujise",
+        "Shi-You Chen"
+      ],
+      "year": 2026,
+      "journal": "Arteriosclerosis, Thrombosis, and Vascular Biology",
+      "volume_issue_pages": "46(4):e323657",
+      "doi": "10.1161/ATVBAHA.125.323657",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41674466/",
+      "topics": [
+        "Disease models",
+        "Vascular biology"
+      ],
+      "featured": true
+    },
+    {
+      "id": "cai-2025-elastin",
+      "title": "Elastin in the Pathogenesis of Abdominal Aortic Aneurysm",
+      "authors": [
+        "Dunpeng Cai",
+        "Shi-You Chen"
+      ],
+      "year": 2025,
+      "journal": "Cells",
+      "volume_issue_pages": "14(20):1597",
+      "doi": "10.3390/cells14201597",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41148811/",
+      "topics": [
+        "Aneurysm",
+        "Vascular biology"
+      ],
+      "featured": false
+    },
+    {
+      "id": "cai-2025-stent",
+      "title": "Enhanced Reendothelialization and Thrombosis Prevention with a New Drug-Eluting Stent",
+      "authors": [
+        "Dunpeng Cai",
+        "Andy C. Chen",
+        "Ruimei Zhou",
+        "Takashi Murashita",
+        "William P. Fay",
+        "Shi-You Chen"
+      ],
+      "year": 2025,
+      "journal": "Cardiovascular Drugs and Therapy",
+      "volume_issue_pages": "39(4):765–774",
+      "doi": "10.1007/s10557-024-07584-y",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/38833147/",
+      "topics": [
+        "Vascular biology",
+        "Disease models"
+      ],
+      "featured": true
+    },
+    {
+      "id": "cai-2025-valve-model",
+      "title": "Novel Humanized Aortic Valve Calcification Model",
+      "authors": [
+        "Dunpeng Cai",
+        "Lindsey Saint",
+        "John Markley",
+        "Shi-You Chen"
+      ],
+      "year": 2025,
+      "journal": "Circulation Research",
+      "volume_issue_pages": "136(12):1632–1635",
+      "doi": "10.1161/CIRCRESAHA.124.325976",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40270264/",
+      "topics": [
+        "Valve disease",
+        "Disease models"
+      ],
+      "featured": true
+    },
+    {
+      "id": "qian-2024-dock2-atherosclerosis",
+      "title": "DOCK2 Promotes Atherosclerosis by Mediating the Endothelial Cell Inflammatory Response",
+      "authors": [
+        "Guoqing Qian",
+        "Oluwaseun Adeyanju",
+        "Dunpeng Cai",
+        "Torry A. Tucker",
+        "Steven Idell",
+        "Shi-You Chen",
+        "Xia Guo"
+      ],
+      "year": 2024,
+      "journal": "The American Journal of Pathology",
+      "volume_issue_pages": "194(4):599–611",
+      "doi": "10.1016/j.ajpath.2023.09.015",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/37838011/",
+      "topics": [
+        "Vascular biology"
+      ],
+      "featured": false
+    },
+    {
+      "id": "guo-2023-dock2-aneurysm",
+      "title": "DOCK2 Deficiency Attenuates Abdominal Aortic Aneurysm Formation—Brief Report",
+      "authors": [
+        "Xia Guo",
+        "Dunpeng Cai",
+        "Kun Dong",
+        "Chenxiao Li",
+        "Zaiyan Xu",
+        "Shi-You Chen"
+      ],
+      "year": 2023,
+      "journal": "Arteriosclerosis, Thrombosis, and Vascular Biology",
+      "volume_issue_pages": "43(6):e210–e217",
+      "doi": "10.1161/ATVBAHA.122.318400",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/37021575/",
+      "topics": [
+        "Aneurysm",
+        "Vascular biology"
+      ],
+      "featured": false
+    },
+    {
+      "id": "cai-2022-pgc1a",
+      "title": "Nanoparticle endothelial delivery of PGC-1α attenuates hypoxia-induced pulmonary hypertension by attenuating EndoMT-caused vascular wall remodeling",
+      "authors": [
+        "Dunpeng Cai",
+        "Shi-You Chen"
+      ],
+      "year": 2022,
+      "journal": "Redox Biology",
+      "volume_issue_pages": "58:102524",
+      "doi": "10.1016/j.redox.2022.102524",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/36334380/",
+      "topics": [
+        "Vascular biology"
+      ],
+      "featured": false
+    },
+    {
+      "id": "cai-2021-smooth-muscle",
+      "title": "A Novel Mechanism Underlying Inflammatory Smooth Muscle Phenotype in Abdominal Aortic Aneurysm",
+      "authors": [
+        "Dunpeng Cai",
+        "Chenming Sun",
+        "Gui Zhang",
+        "Xingyi Que",
+        "Ken Fujise",
+        "Neal L. Weintraub",
+        "Shi-You Chen"
+      ],
+      "year": 2021,
+      "journal": "Circulation Research",
+      "volume_issue_pages": "129(10):e202–e214",
+      "doi": "10.1161/CIRCRESAHA.121.319374",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/34551587/",
+      "topics": [
+        "Aneurysm",
+        "Vascular biology"
+      ],
+      "featured": false
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-09-24",
+      "title": "NIH funding supports research on aortic valve calcification",
+      "summary": "Mizzou reports a five-year, $2.8 million NIH R01 award supporting Dr. Cai’s investigation of DOCK2 and aortic valve calcification.",
+      "url": "https://medicine.missouri.edu/news/dr-cai-seeks-treatment-common-heart-valve-disease",
+      "source": "University of Missouri School of Medicine"
+    },
+    {
+      "date": "2025-12-02",
+      "title": "A humanized model for studying aortic valve calcification",
+      "summary": "Mizzou highlights collaborative work developing a humanized experimental platform to study aortic valve calcification and potential treatments.",
+      "url": "https://medicine.missouri.edu/news/researchers-create-new-way-study-heart-valve-stiffness",
+      "source": "University of Missouri School of Medicine"
+    },
+    {
+      "date": "2025-10-28",
+      "title": "Exploring RNA-based approaches to Marfan syndrome",
+      "summary": "An American Heart Association-supported project explores RNA editing as a potential approach to correcting disease-associated fibrillin-1 transcripts.",
+      "url": "https://medicine.missouri.edu/news/cai-breaks-new-ground-treatment-genetic-disorders",
+      "source": "University of Missouri School of Medicine"
+    }
+  ],
+  "source_notes": [
+    {
+      "url": "https://medicine.missouri.edu/faculty/dunpeng-cai-phd",
+      "note": "Verified identity, institutional email, office, education, research interests, microsurgery expertise, and linked Google Scholar profile. Retrieved November 15, 2026. The search index and recent university news report Assistant Professor, while a retrieved faculty-page body still says Assistant Research Professor. The website uses Assistant Professor, consistent with recent university reporting. No appointment date or tenure status is claimed. These editorial notes are not rendered in public pages."
+    },
+    {
+      "url": "https://medicine.missouri.edu/news/dr-cai-seeks-treatment-common-heart-valve-disease",
+      "note": "Confirms assistant professor title, five-year $2.8 million NIH R01, and DOCK2/aortic valve research. The news date used is the School of Medicine publication date, September 24, 2026; the original Show Me Mizzou story was September 1, 2026. No grant number or demonstrated clinical efficacy is claimed."
+    },
+    {
+      "url": "https://medicine.missouri.edu/news/researchers-create-new-way-study-heart-valve-stiffness",
+      "note": "Supports the humanized valve model research summary. News date is the School of Medicine repost date, December 2, 2025; original story November 12, 2025. Collaborators named in the article are not treated as current lab members."
+    },
+    {
+      "url": "https://medicine.missouri.edu/news/cai-breaks-new-ground-treatment-genetic-disorders",
+      "note": "Supports publicly described AHA-supported RNA research for Marfan syndrome. News date is the School of Medicine repost date, October 28, 2025; original story October 14, 2025. RNA editing is described as exploratory, without asserting clinical benefit."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41674466/",
+      "note": "Verified title, author order, journal, 2026 final citation, and DOI. First online February 12, 2026; issue April 2026."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40270264/",
+      "note": "Verified publication metadata. Article type: Letter."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41148811/",
+      "note": "Verified publication metadata. Article type: Review."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38833147/",
+      "note": "Verified publication metadata. Final issue is August 2025; the article first appeared online June 4, 2024. Uses final citation year 2025."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37838011/",
+      "note": "Verified publication metadata. Final issue is April 2024; first online October 12, 2023. Uses final citation year 2024."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37021575/",
+      "note": "Verified publication metadata. PubMed marks Xia Guo and Dunpeng Cai as equal contributors."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36334380/",
+      "note": "Verified publication metadata. The selected publications section includes work involving the PI before establishment of an independent lab."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34551587/",
+      "note": "Verified publication metadata and background for smooth muscle phenotypic modulation and aneurysm research."
+    }
+  ]
+}
