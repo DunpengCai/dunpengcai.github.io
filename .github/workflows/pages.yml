@@ -1,0 +1,54 @@
+name: Publish Cai Lab website
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+      - name: Read Pages configuration
+        id: pages
+        uses: actions/configure-pages@v6.0.0
+      - name: Build the website
+        env:
+          SITE_URL: ${{ steps.pages.outputs.base_url }}
+        run: python3 build.py
+      - name: Check the entry page
+        run: test -s dist/index.html
+      - name: Upload the website
+        uses: actions/upload-pages-artifact@v5.0.0
+        with:
+          path: dist
+          retention-days: 1
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5.0.1
