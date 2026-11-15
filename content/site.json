@@ -1,7 +1,7 @@
 {
   "lab": {
     "name": "Cai Lab",
-    "tagline": "Vascular & Valvular Biology",
+    "tagline": "Aortic Disease & RNA Therapeutics",
     "institution": "University of Missouri",
     "department": "Department of Surgery",
     "school": "School of Medicine",
@@ -18,8 +18,8 @@
       "title": "Assistant Professor",
       "credentials": "PhD",
       "bio": [
-        "Dunpeng Cai studies the cellular and molecular processes that contribute to vascular and heart valve disease. His research brings together mechanistic studies and experimental disease models to investigate aneurysm, aortic valve calcification, vascular remodeling, and inherited vascular disorders.",
-        "Dr. Cai completed his doctoral and postdoctoral training at the University of Missouri. His work combines molecular approaches, imaging, and microsurgery to connect discoveries in cells and tissues with questions relevant to cardiovascular treatment."
+        "Dunpeng Cai studies inherited aortic disease and aortic valve calcification. His research focuses on Marfan syndrome, RNA therapeutics, aortic valve calcification (AVC), and thoracic aortic aneurysm (TAA), connecting molecular questions with experimental models of cardiovascular disease.",
+        "Dr. Cai completed his doctoral and postdoctoral training at the University of Missouri. His work combines molecular approaches, imaging, and microsurgery to understand disease processes and explore potential therapeutic strategies."
       ],
       "profile_url": "https://medicine.missouri.edu/faculty/dunpeng-cai-phd",
       "scholar_url": "https://scholar.google.com/citations?hl=en&user=AvEJPi4AAAAJ",
@@ -31,15 +31,46 @@
   },
   "research": [
     {
-      "id": "valve-disease",
-      "title": "Aortic valve disease",
-      "eyebrow": "Cell signaling & calcification",
-      "summary": "Understanding how cellular signaling and inflammation contribute to the stiffening and calcification of the aortic valve.",
-      "body": "We connect observations in human valve tissue with experimental studies to examine disease mechanisms. Current work investigates DOCK2 signaling and uses translational models to explore potential therapeutic targets for aortic valve calcification.",
+      "id": "marfan-syndrome",
+      "title": "Marfan syndrome",
+      "eyebrow": "Genetics & aortic wall biology",
+      "summary": "Understanding how FBN1-related connective-tissue changes contribute to aortic disease.",
+      "body": "We study Marfan syndrome as a genetic aortopathy, with a focus on fibrillin-1, the aortic wall, and disease progression. Our goal is to connect the molecular basis of this inherited condition with research approaches that may help preserve aortic function.",
       "topics": [
-        "Valve disease",
-        "Cell signaling",
-        "Translational models"
+        "Marfan syndrome",
+        "FBN1",
+        "Genetic aortopathy"
+      ],
+      "source_urls": [
+        "https://medicine.missouri.edu/news/cai-breaks-new-ground-treatment-genetic-disorders",
+        "https://pubmed.ncbi.nlm.nih.gov/1852208/"
+      ]
+    },
+    {
+      "id": "rna-therapeutics",
+      "title": "RNA therapeutics",
+      "eyebrow": "Precision approaches in development",
+      "summary": "Exploring RNA-based strategies to address the molecular causes of inherited cardiovascular disease.",
+      "body": "Our research investigates RNA editing as a potential approach to disease-associated FBN1 transcripts. We aim to connect precise molecular targeting with disease-relevant experimental studies as a foundation for future therapeutic development.",
+      "topics": [
+        "RNA therapeutics",
+        "RNA editing",
+        "FBN1"
+      ],
+      "source_urls": [
+        "https://medicine.missouri.edu/news/cai-breaks-new-ground-treatment-genetic-disorders"
+      ]
+    },
+    {
+      "id": "aortic-valve-calcification",
+      "title": "Aortic valve calcification (AVC)",
+      "eyebrow": "Valve biology & calcification",
+      "summary": "Defining the cellular changes behind aortic valve stiffening and mineral deposition.",
+      "body": "We investigate aortic valve calcification through studies of human tissue and experimental models. Our work connects cell signaling and tissue remodeling with efforts to identify potential therapeutic targets for valve disease.",
+      "topics": [
+        "AVC",
+        "Valve biology",
+        "Calcification"
       ],
       "source_urls": [
         "https://medicine.missouri.edu/news/dr-cai-seeks-treatment-common-heart-valve-disease",
@@ -47,53 +78,19 @@
       ]
     },
     {
-      "id": "vascular-remodeling",
-      "title": "Vascular remodeling & aneurysm",
-      "eyebrow": "Cells, inflammation & matrix",
-      "summary": "Investigating how vascular cells and the extracellular matrix change during aneurysm and vascular disease.",
-      "body": "Our studies examine smooth muscle cell plasticity, endothelial inflammation, and matrix remodeling. By identifying molecular pathways that shape these responses, we seek to understand how vascular structure and function are lost and how they might be preserved.",
+      "id": "thoracic-aortic-aneurysm",
+      "title": "Thoracic aortic aneurysm (TAA)",
+      "eyebrow": "Aortic integrity & disease progression",
+      "summary": "Investigating the processes that weaken the thoracic aortic wall and contribute to aneurysm.",
+      "body": "Our TAA research focuses on how inherited disease, vascular cell behavior, and the extracellular matrix relate to aortic wall integrity. We seek to understand disease progression and identify biological questions that can guide future therapeutic research.",
       "topics": [
-        "Aneurysm",
-        "Vascular biology",
+        "TAA",
+        "Aortic wall",
         "Extracellular matrix"
       ],
       "source_urls": [
-        "https://pubmed.ncbi.nlm.nih.gov/34551587/",
-        "https://pubmed.ncbi.nlm.nih.gov/37021575/",
-        "https://pubmed.ncbi.nlm.nih.gov/37838011/",
-        "https://pubmed.ncbi.nlm.nih.gov/41148811/"
-      ]
-    },
-    {
-      "id": "rna-approaches",
-      "title": "RNA approaches to genetic disease",
-      "eyebrow": "Precision strategies for Marfan syndrome",
-      "summary": "Exploring RNA-based approaches to the molecular causes of inherited vascular disease.",
-      "body": "Our Marfan syndrome research investigates strategies to correct disease-associated fibrillin-1 transcripts. This work asks whether RNA editing can provide a route toward addressing the genetic basis of vascular disease, with efficacy and translation remaining research goals.",
-      "topics": [
-        "Marfan syndrome",
-        "RNA editing",
-        "Precision medicine"
-      ],
-      "source_urls": [
-        "https://medicine.missouri.edu/news/cai-breaks-new-ground-treatment-genetic-disorders"
-      ]
-    },
-    {
-      "id": "disease-models",
-      "title": "Models that connect mechanism to disease",
-      "eyebrow": "Microsurgery & translational research",
-      "summary": "Developing experimental platforms to study cardiovascular disease and investigate potential interventions.",
-      "body": "Our published work includes humanized aortic valve calcification models, models of flow-driven pulmonary hypertension, and vascular repair studies. These platforms help connect molecular questions with tissue remodeling and cardiovascular function.",
-      "topics": [
-        "Disease models",
-        "Microsurgery",
-        "Pulmonary hypertension"
-      ],
-      "source_urls": [
-        "https://pubmed.ncbi.nlm.nih.gov/40270264/",
-        "https://pubmed.ncbi.nlm.nih.gov/41674466/",
-        "https://pubmed.ncbi.nlm.nih.gov/38833147/"
+        "https://medicine.missouri.edu/news/cai-breaks-new-ground-treatment-genetic-disorders",
+        "https://pubmed.ncbi.nlm.nih.gov/16601194/"
       ]
     }
   ],
@@ -116,7 +113,7 @@
         "Disease models",
         "Vascular biology"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "cai-2025-elastin",
@@ -156,7 +153,7 @@
         "Vascular biology",
         "Disease models"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "cai-2025-valve-model",
@@ -260,7 +257,7 @@
         "Aneurysm",
         "Vascular biology"
       ],
-      "featured": false
+      "featured": true
     }
   ],
   "news": [
@@ -334,6 +331,22 @@
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/34551587/",
       "note": "Verified publication metadata and background for smooth muscle phenotypic modulation and aneurysm research."
+    },
+    {
+      "url": "https://medicine.missouri.edu/news/cai-breaks-new-ground-treatment-genetic-disorders",
+      "note": "Research priorities were revised at the lab owner's request to Marfan syndrome, RNA therapeutics, aortic valve calcification (AVC), and thoracic aortic aneurysm (TAA), in that order. The university story independently supports the public Marfan/RNA focus. The current TAA focus is owner-provided; it is not inferred from abdominal-aortic-aneurysm publications. The public copy makes no claim of a proven RNA cure, approved treatment, or clinical trial. No unpublished molecular targets or specific experimental outcomes were added."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1852208/",
+      "note": "Dietz et al., Nature 1991, DOI 10.1038/352337a0, is a primary background source connecting fibrillin gene mutations with Marfan syndrome. This is background biology, not a Cai Lab publication or an additional selected publication."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16601194/",
+      "note": "Habashi et al., Science 2006, DOI 10.1126/science.1124287, is a primary background source for fibrillin-1-related aortic disease in a Marfan mouse model. It does not establish efficacy of any Cai Lab RNA strategy. This is not a Cai Lab publication and was not added to the selected bibliography."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34551587/",
+      "note": "The two featured papers are the 2025 humanized aortic valve calcification model and the 2021 inflammatory smooth muscle study in abdominal aortic aneurysm. The latter is featured as prior mechanistic aneurysm research; its title, disease context, and metadata remain abdominal aortic aneurysm (AAA), not thoracic aortic aneurysm (TAA). No TAA-specific Cai publication was independently verified in this bounded update. This editorial distinction is not rendered as visitor-facing copy."
     }
   ]
 }
